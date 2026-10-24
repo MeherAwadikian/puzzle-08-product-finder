@@ -1,0 +1,14 @@
+name = "puzzle-08-product-finder"
+main = "src/index.ts"
+compatibility_date = "2026-10-24"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+[[r2_buckets]]
+binding = "LENS_UPLOADS"
+bucket_name = "puzzle08-lens-uploads"
+
+[vars]
+R2_PUBLIC_URL = "https://pub-e7556ced99a24a0d8d56773f807e2266.r2.dev"

@@ -1,0 +1,12 @@
+{
+  "name": "puzzle-08-product-finder",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.94.0"
+  }
+}
